@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5px;
+}
+.router-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.logo {
+  height: 30px;
+  width: 80px;
+}
+
+.nav-link {
+  padding: 5px;
+  margin: 3px;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 700;
+}
